@@ -4,8 +4,6 @@ from num_bits import num_bits
 from bit_test import bit_test
 import ecc_params as _ecc_params
 
-import crypto
-
 class Jacobian(object):
     ecc_params = None
     _x, _y, _z = None, None, None
